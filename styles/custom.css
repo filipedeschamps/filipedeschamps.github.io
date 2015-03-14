@@ -67,6 +67,14 @@ img {
   max-width: 700px
 }
 
+.divider {
+  display: block;
+  width: 100px;
+  margin: 40px auto 30px auto;
+  border: 0;
+  border-top: 1px solid #CCC;
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -80,7 +88,7 @@ img {
 
 .hero-image {
   border-radius: 50%;
-  width: 30%;
+  width: 170px;
   margin: 25px 0;
 }
 
@@ -93,12 +101,16 @@ img {
 @media only screen and (max-width:767px) {
   
   h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
   
   h2 {
     font-size: 28px;
     line-height: 1.2;
+  }
+  
+  .divider {
+    margin: 15px auto 15px auto;
   }
 
 }
