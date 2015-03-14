@@ -1,5 +1,5 @@
 /**
- * TAGS
+ * HTML TAGS
  */
 
 * {
@@ -9,26 +9,38 @@
 
 body {
   font-family: 'Droid Serif', Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;  
+  font-weight: 700;
 }
 
 h1 {
   font-size: 50px;
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
   letter-spacing: -2px;
   line-height: 50px;
   margin: 0 0 8px 0;
+  color: #333;
+}
+
+h2 {
+  font-size: 36px;
+  color: #333;
+  letter-spacing: -0.72px;
+  line-height: 43px;
+  margin: 40px 0 4px -1.8px;
 }
 
 
 p {
+  font-family: "Merriweather";
+  color: #333;
   font-size: 22px;
+  letter-spacing: 0.16px;
+  line-height: 33px;
   margin: 0 0 30px 0;
-  letter-spacing: .01rem;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 22px;
-  line-height: 1.5;
-  color: #000;
 }
 
 
@@ -61,7 +73,7 @@ img {
 .hero-description {
   font-size: 18px;
   font-family: 'Open Sans', 'Myriad Pro', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
-  color: 676767 ;
+  color: #676767;
   letter-spacing: -0.36px;
   line-height: 25px;
   margin: 0 0 30px 0;
