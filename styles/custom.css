@@ -78,6 +78,12 @@ img {
   margin: 0 0 30px 0;
 }
 
+.hero-image {
+  border-radius: 50%;
+  width: 30%;
+  margin: 25px 0;
+}
+
 
 /**
  * RESPONSIVE
