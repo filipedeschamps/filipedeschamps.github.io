@@ -13,6 +13,12 @@ body {
   font-weight: 400;
 }
 
+a,
+a:link,
+a:visited {
+  color: #BE9466;
+}
+
 h1, h2 {
   font-family: "Open Sans", sans-serif;  
   font-weight: 700;
@@ -83,13 +89,19 @@ img {
   color: #777;
   letter-spacing: -0.1px;
   line-height: 25px;
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
 }
 
 .hero-image {
   border-radius: 50%;
   width: 170px;
   margin: 25px 0;
+}
+
+.hero-links a {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 10px;
 }
 
 
@@ -110,7 +122,7 @@ img {
   }
   
   .divider {
-    margin: 15px auto 15px auto;
+    margin: 25px auto 20px auto;
   }
 
 }
