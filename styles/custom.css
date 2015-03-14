@@ -1,0 +1,91 @@
+/**
+ * TAGS
+ */
+
+* {
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: 'Droid Serif', Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -2px;
+  line-height: 50px;
+  margin: 0 0 8px 0;
+}
+
+
+p {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000;
+}
+
+
+strong {
+  font-weight: 700;
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/**
+ * CUSTOM CLASSES
+ */
+
+.container {
+  max-width: 700px
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.hero-description {
+  font-size: 18px;
+  font-family: 'Open Sans', 'Myriad Pro', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  color: 676767 ;
+  letter-spacing: -0.36px;
+  line-height: 25px;
+  margin: 0 0 30px 0;
+}
+
+
+/**
+ * RESPONSIVE
+ */
+
+
+@media only screen and (max-width:767px) {
+  body {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  h1 {
+    font-size: 30.5px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+}
