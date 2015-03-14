@@ -85,17 +85,13 @@ img {
 
 
 @media only screen and (max-width:767px) {
-  body {
-    font-size: 18px;
-    line-height: 1.4;
-  }
   
   h1 {
-    font-size: 30.5px;
+    font-size: 35px;
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.2;
   }
 
