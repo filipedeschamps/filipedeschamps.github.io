@@ -59,17 +59,8 @@
       <div class="row">
         <div class="col-xs-12">
           <h2>Engenharia vs Engenhoca</h2>
-          <p>Há uma enorme diferença entre engenharia e engenhoca e o problema é que você pode <strong>não perceber a diferença no curto prazo</strong>. Inclusive, no início do projeto, a versão engenhoca (ainda não descoberta como tal), pode parecer melhor que a versão engenharia. Ela somente se revela uma engenhoca, quando para contornar problemas simples, você precisa dar voltas e voltas, gerando mais trabalho, bugs e problemas de segurança do que uma solução inicialmente bem desenhada.</p>
+          <p>Há uma enorme diferença entre engenharia e engenhoca e o problema é que você pode <strong>não perceber a diferença no curto prazo</strong>. Inclusive, no início do projeto, a versão engenhoca (ainda não descoberta como tal), pode parecer melhor que a versão engenharia. Ela somente se revela uma engenhoca, quando para contornar problemas simples, você precisa dar voltas e voltas, gerando mais trabalho, bugs e problemas de segurança do que uma solução inicialmente simples e bem desenhada.</p>
           <p>Um sinal claro de que algo pode se tornar uma engenhoca ao invés de uma engenharia é quando o que está sendo proposto como design serve mais para beneficiar a redução de trabalho do desenvolvedor do que qualquer outra coisa.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <h2>Separation of concerns</h2>
-          <p>Você faz a comida na cozinha, mas come ela na mesa da sala, correto? Bom, você pode até comer na cozinha e aproveitar para beber diretamente da garrafa, pois neste contexto funciona, mas num contexto de um restaurante, você não vai pedir para os clientes comerem na cozinha ou beberem da garrafa.</p>
-          <p>Apesar de muita gente entender o conceito de separar responsabilidades, principalmente quando se trata MVC, <strong>não conseguem respeitar</strong>. Estas pessoas acabam <em>comendo na cozinha</em>, colocando tudo no controller e <em>bebendo diretamente da garrafa</em>, porque está mais na mão, mais prático.</p>
-          <p>No design de MVC, entenda que a View é o <strong>cardápio</strong>, o Controller é o <strong>garçom</strong> e o Model é o <strong>chef</strong>. A View apresenta os pratos disponíveis, o Controller leva qual prato deve ser feito ao Model e ele o prepara, pois é o único que possui a receita e sabe fazer.</p>
         </div>
       </div>
 
@@ -77,6 +68,16 @@
         <div class="col-xs-12">
           <h2>Qualidade no trabalho</h2>
           <p>É difícil concorrer com alguém que esteja fazendo um <strong>trabalho realmente apaixonado</strong>. Uma única pessoa apaixonada pelo que faz pode criar soluções que concorram com empresas enormes.</p>
+          <p>Então empresas, <strong>eu suplico</strong>, deem motivos para os seus desenvolvedores ficarem apaixonados pelo que estão criando. Não façam a <strong>gestão do medo</strong>, pois no curto prazo isto funciona, mas em seguida eles irão procurar segurança... e esta segurança está fora de sua empresa.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Separation of concerns</h2>
+          <p>Você faz a comida na cozinha, mas come ela na mesa da sala, correto? Bom, você pode até comer na cozinha e aproveitar para beber diretamente da garrafa, pois neste contexto funciona, mas num contexto de um restaurante, você não vai pedir para os clientes comerem na cozinha ou beberem da garrafa.</p>
+          <p>Apesar de muita gente entender o conceito de separar responsabilidades, principalmente quando se trata MVC, <strong>não conseguem respeitar</strong>. Estas pessoas acabam gerenciando um restaurante onde os clientes comem na cozinha e bebem diretamente da garrafa, porque está mais na mão, mais prático, é como por exemplo, colocar tudo no controller.</p>
+          <p>No design de MVC, entenda que a View é o <strong>cardápio</strong>, o Controller é o <strong>garçom</strong> e o Model é o <strong>chef</strong>. A View apresenta os pratos disponíveis, o Controller leva qual prato deve ser feito ao Model e ele o prepara, pois é o único que possui a receita e sabe fazer.</p>
         </div>
       </div>
 
@@ -99,14 +100,17 @@
           <h2>Desenvolvedor egoísta</h2>
           <p>Alguns desenvolvedores estão ficando mal acostumados e até fissurados por facilidades ao programar, o que acaba gerando muitas vezes um <strong>software de qualidade questionável</strong>. Caso eles estejam se preocupando mais com eles e a quantidade de código que precisarão escrever do que com o produto que estão criando, tome cuidado.</p>
           <p>Esta vontade de <em>otimização de trabalho</em> poderá gerar um resultado catastrófico na arquitetura de um software, trazendo <strong>acoplamentos difíceis de se separar</strong> e expondo detalhes de implementação em partes do código que deveriam apenas controlar o fluxo, como fazer implementações diretamente no Controller.</p>
-          <p>Agora para piorar, este desenvolvedor que está <em>supostamente</em> correndo rápido no seu trabalho irá <strong>reduzir a velocidade</strong> de todos os outros membros da equipe caso eles tenham que trabalhar no mesmo código.</p>
+          <p>Agora para piorar, este desenvolvedor que está <em>supostamente correndo rápido</em> no seu trabalho irá <strong>reduzir a velocidade</strong> de todos os outros membros da equipe caso eles tenham que trabalhar neste mesmo código.</p>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-12">
           <h2>Refatoração</h2>
-          <p>Colocar features novas sem investir também em refatoração é como colocar banco de couro em um carro antigo que só dá manutenção. É necessário cuidar da saúde do seu código sempre que puder para não pagar um preço <strong>ainda mais caro</strong> no futuro.</p>
+          <p>Colocar features novas sem investir também em refatoração é como colocar banco de couro em um carro antigo que só dá manutenção.</p>
+          <p>Você publicaria um artigo sem fazer a revisão? Ou seja, a primeira versão é a que <strong>vai ficar para sempre</strong>? É engraçado, pois quando se trata de texto é inaceitável. Você sabe que se ler o texto mais para frente, com um <strong>conhecimento maior</strong> sobre o assunto que está desenvolvento, você irá lapidar, reordenar e melhorar muito o resultado.</p>
+          <p>Então deixar textos sem reavaliações futuras é inaceitável, correto? Bom, você não tem noção como isto é comum quando se trata de <strong>código</strong>. Pelo fato das pessoas ainda <strong>não entenderem nada sobre o assunto</strong>, elas não se organizam para incluir isto no processo, muito menos no planejamento de recursos, elas sabem apenas adicionar novas features. Eu já presenciei diversar vezes injeção de recursos em features que ninguém iria utilizar, do que refatorar partes do core business que criariam um salto nos resultados e <strong>velocidade de produção</strong>. Mas convenhamos, novas features parece sempre ser mais excitante para todo mundo.</p>
+          <p>Não se esqueça que um código, diferente de um artigo, é algo vivo com comportamento, saúde e idade. É necessário cuidar da saúde do seu código sempre que puder para não pagar um preço <strong>ainda mais caro</strong> no futuro.</p>
         </div>
       </div>
 
@@ -115,6 +119,15 @@
           <h2>Quantidade x Qualidade</h2>
           <p>Depende muito se você está tentando agradar um público varejo ou segmentado, porém quando se trata de software, considero um erro tentar compensar a falta de qualidade com quantidade. Softwares são criados para solucionar problemas, disponibilize uma quantidade enorme de soluções para o seu usuário e <strong>você criou mais um problema para ele</strong>. Principalmente quando todas estas soluções são mal pensadas e mal acabadas.</p>
           <p><strong>Corte features, mas não corte qualidade.</strong> Se a idéia principal do projeto é do interesse dos seus usuários, o projeto irá evoluir com o passar do tempo e você irá chegar em todas as features desejadas de uma forma mais sustentável, madura e muito mais alinhada com o usuário. Até porque, <strong>80% dos usuários utilizarão somente 20% das features</strong>, então cuidado com o <i>signal-to-noise ratio</i> da sua solução.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Desenvolvedor plantador de surpresas</h2>
+          <p>Todo bug é uma surpesa. Em alguns casos, parece que o desenvolvedor não percebe que está plantando surpresas ou até mesmo gosta de plantar surpresas para <strong>reduzir a quantidade de código que irá digitar</strong>. Há uma grande diferença entre <i>"não teremos problema, pois não consigo imaginar o que pode dar de errado..."</i> de algo como <i>"eu consigo sim imaginar todas as variáveis envolvidas no presente e no <strong>futuro</strong> e não vai dar errado"</i>.</p>
+          <p>Você já ouviu falar em <strong><i>margem de cagaço</i></strong> na construção civil ou finanças? É quando você compensa a <strong>incerteza</strong> com mais esforços e recursos, e parece ser o que todo desenvolvedor não quer fazer em seu código... o que é justo quando você quer evitar o <em>design especulativo</em>, mas não é por isto que eles fazem, eles fazem porque é menos trabalho apenas.</p>
+          <p>Na construção civil, um erro pode derrubar um prédio e em finanças pode falir uma empresa... mas no código, é interpretado apenas como um bug (que foi plantado no passado), é algo comum. Esta mentalide de que <em>é normal ter bug</em> está errada e espero não morar em um prédio administrado por software desenvolvido por este tipo de pessoa.</p>
         </div>
       </div>
 
