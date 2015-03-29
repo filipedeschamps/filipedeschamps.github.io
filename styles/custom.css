@@ -20,7 +20,7 @@ a:visited {
 }
 
 h1, h2 {
-  font-family: "Open Sans", sans-serif;  
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 
@@ -95,6 +95,7 @@ img {
 .hero-image {
   border-radius: 50%;
   width: 170px;
+  height: 170px;
   margin: 25px 0;
 }
 
@@ -111,16 +112,16 @@ img {
 
 
 @media only screen and (max-width:767px) {
-  
+
   h1 {
     font-size: 32px;
   }
-  
+
   h2 {
     font-size: 28px;
     line-height: 1.2;
   }
-  
+
   .divider {
     margin: 25px auto 20px auto;
   }
