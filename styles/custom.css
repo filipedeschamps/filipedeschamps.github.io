@@ -64,6 +64,10 @@ img {
   margin: 0 auto;
 }
 
+ol li {
+  margin-bottom: 30px;
+}
+
 
 /**
  * CUSTOM CLASSES
