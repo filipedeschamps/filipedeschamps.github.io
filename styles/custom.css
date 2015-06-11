@@ -98,8 +98,8 @@ ol li {
 
 .hero-image {
   border-radius: 50%;
-  width: 170px;
-  height: 170px;
+  width: 300px;
+  height: 300px;
   margin: 25px 0;
 }
 
@@ -129,5 +129,13 @@ ol li {
   .divider {
     margin: 25px auto 20px auto;
   }
+
+  .hero-image {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin: 25px 0;
+  }
+
 
 }
